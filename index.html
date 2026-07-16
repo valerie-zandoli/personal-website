@@ -14,6 +14,28 @@
             margin: 80px auto;
             padding: 0 24px;
         }
+        .top-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        .top-nav a {
+            color: #111111;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .top-nav a:hover {
+            color: #0066cc;
+        }
+        .resume-btn {
+            margin-left: auto;
+            padding: 0.6rem 1rem;
+            background-color: #0066cc;
+            color: #ffffff;
+            border-radius: 999px;
+        }
         h1 {
             font-size: 2.5rem;
             margin-bottom: 0.5rem;
@@ -62,27 +84,54 @@
 </head>
 <body>
 
-    <h1>Valerie Zandoli</h1>
-    <h2>Software Engineer</h2>
+    <nav class="top-nav">
+        <a href="#home">Home</a>
+        <a href="#story">My Story</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#connect">Let's Connect</a>
+        <a class="resume-btn" href="#">Download Resume</a>
+    </nav>
+
+    <section id="home">
+        <h1>Valerie Zandoli</h1>
+        <h2>Software Engineer</h2>
+    </section>
 
     <hr>
 
-    <h3>Background</h3>
-    <p>Valerie Zandoli possesses a unique and rigorous background.  She sailed on scientific schooners to conduct research.  This work demonstrated her deep dedication to the planet.  She earned an undergraduate science degree from an Ivy League university.  This education built her exceptional analytical skills and her critical thinking skills.  She then completed intensive software engineering training at Pursuit.  This rigorous program proved that she is an indefatigable problem solver.  She thrives when she faces complex technical challenges.</p>
+    <section id="story">
+        <h3>My Story</h3>
+        <p>Valerie Zandoli possesses a unique and rigorous background. She sailed on scientific schooners to conduct research. This work demonstrated her deep dedication to the planet. She earned an undergraduate science degree from an Ivy League university. This education built her exceptional analytical skills and her critical thinking skills. She then completed intensive software engineering training at Pursuit. This rigorous program proved that she is an indefatigable problem solver. She thrives when she faces complex technical challenges.</p>
+    </section>
 
     <hr>
 
-    <h3>Core Strengths</h3>
-    <ul>
-        <li><strong>Multidisciplinary Problem Solving:</strong> She solves complex biological, mechanical, and spatial problems.  She translates physical world challenges into clean, efficient code.</li>
-        <li><strong>Pattern-Driven Innovation:</strong> She innovates by observing natural patterns and system processes.  She designs software architecture that is both resilient and scalable.</li>
-        <li><strong>Empathetic Leadership:</strong> She leads teams capably and listens actively.  She fosters collaboration to ensure project success.</li>
-    </ul>
+    <section id="skills">
+        <h3>Core Strengths</h3>
+        <ul>
+            <li><strong>Multidisciplinary Problem Solving:</strong> She solves complex biological, mechanical, and spatial problems. She translates physical world challenges into clean, efficient code.</li>
+            <li><strong>Pattern-Driven Innovation:</strong> She innovates by observing natural patterns and system processes. She designs software architecture that is both resilient and scalable.</li>
+            <li><strong>Empathetic Leadership:</strong> She leads teams capably and listens actively. She fosters collaboration to ensure project success.</li>
+        </ul>
+    </section>
 
     <hr>
 
-    blockquote>
-        Valerie Zandoli combines elite scientific training with indefatigable engineering grit.  She will bring immediate value, rigorous logic, and unique perspectives to your technical team.
+    <section id="projects">
+        <h3>Projects</h3>
+        <p>Selected projects and case studies will be featured here soon.</p>
+    </section>
+
+    <hr>
+
+    <section id="connect">
+        <h3>Let's Connect</h3>
+        <p>Feel free to reach out for collaboration, networking, or opportunities.</p>
+    </section>
+
+    <blockquote>
+        Valerie Zandoli combines elite scientific training with indefatigable engineering grit. She will bring immediate value, rigorous logic, and unique perspectives to your technical team.
     </blockquote>
 
 </body>
